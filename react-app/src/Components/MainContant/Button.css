@@ -1,0 +1,39 @@
+.btn button {
+  width: 72px;
+  height: 72px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+.btn {
+  display: flex;
+  gap: 24px;
+}
+.btn button.selected {
+  background: black;
+  color: white;
+}
+.selactnumber p {
+  width: 182px;
+  height: 36px;
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    flex-direction: column;
+  }
+  .btn button {
+    width: 100%;
+  }
+  .selectnumber p {
+    float: none;
+    text-align: center;
+  }
+}

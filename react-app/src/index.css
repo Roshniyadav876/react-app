@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif; /* yaha comma lagana zaruri hai */
+    opacity: 1;
+}

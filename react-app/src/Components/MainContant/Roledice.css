@@ -1,0 +1,38 @@
+.roledice {
+  position: relative;
+  left: 20vw;
+  margin-top: 36px
+}
+.roledice p {
+  width: 229px;
+  height: 36px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.roledice .dicebtn button{
+  width: 220px;
+  height: 44px;
+  gap: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  margin-left: 1%;
+  margin-bottom: 24px;
+  display: block;
+}
+.roledice .dicebtn .reset:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.roledice .dicebtn .showrules:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in;
+}

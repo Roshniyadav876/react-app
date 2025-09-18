@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px;   /* thoda limit me rakho */
+  margin: 0 auto;
+  gap: 20px; /* image aur box ke beech space */
+}
+
+.container .box h1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;         /* responsive */
+  max-width: 400px;    /* limit set */
+  height: auto;        /* aspect ratio maintain */
+}
+
+.box button {
+  padding: 12px 20px;
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+  min-width: 180px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.box button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: #000000;
+  transition: all 0.3s ease-in;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* items niche aa jayenge */
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container .box h1 {
+    font-size: 40px; /* chhoti screen me thoda chhota */
+  }
+
+  .box button {
+    min-width: 150px;
+  }
+}
